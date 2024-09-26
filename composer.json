@@ -1,0 +1,19 @@
+{
+    "name": "lenovo/package-romulus",
+    "description": "My first composer package, made to teach me how to build packages.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\PackageRomulus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lihat Radu",
+            "email": "radulihat@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
